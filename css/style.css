@@ -1,0 +1,219 @@
+/*=========Main styles=========*/
+*, *:before, *:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.ibg img {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/*=========Header==============*/
+.header {
+  padding: 30px 0;
+  color: #000;
+}
+.header__inner {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo {
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  font-weight: 800;
+}
+.header__nav {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+}
+.header__link {
+  margin-right: 45px;
+  opacity: 0.75;
+  border-bottom: 3px solid transparent;
+  transition: opacity 0.2s linear, border-color 0.2s linear;
+}
+.header__link:last-child {
+  margin: 0;
+}
+.header__link:hover {
+  opacity: 1;
+  border-color: #d24f4f;
+}
+.header__info {
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  align-items: left;
+  color: #000;
+  font-size: 16px;
+}
+.header__name {
+  font-weight: bold;
+  font-size: 24px;
+}
+.header__job {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.header__email {
+  color: #1627cb;
+}
+
+.section {
+  padding: 80px 0;
+}
+.section__header {
+  margin-bottom: 80px;
+}
+.section__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 68px;
+  color: #000;
+}
+.section__title:before {
+  content: "";
+  display: block;
+  width: 93px;
+  height: 4px;
+  background-color: #000;
+}
+.section__title--text {
+  margin-bottom: 20px;
+}
+.section__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: gray;
+}
+
+/*=========Portfolio==============*/
+.portfolio__inner {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.portfolio__item {
+  margin: 20px 0;
+  padding: 30px 24px;
+  width: 400px;
+  box-shadow: 2 px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.portfolio__title {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+}
+.portfolio__text {
+  margin: 10px 0 40px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  text-align-last: left;
+}
+.portfolio__image {
+  padding-top: 110%;
+  background-color: gray;
+}
+
+/*=========sertificates==============*/
+.sertificates__item {
+  padding: 30px 24px;
+  margin: 0 0 50px 60px;
+  max-width: 650px;
+  border: 1px solid black;
+  transition: box-shadow 0.2s linear, border-color 0.2s linear;
+}
+.sertificates__item:hover {
+  border-color: transparent;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+.sertificates__title {
+  margin-bottom: 20px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  text-transform: capitalize;
+}
+.sertificates__image {
+  padding-top: 49%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/*=========Contact==============*/
+.contact__inner {
+  display: flex;
+  display: -ms-flexbox;
+  justify-content: space-around;
+}
+.contact__item {
+  display: block;
+  padding: 70px;
+  position: relative;
+  flex: 0 1 29%;
+  text-align: center;
+  background-color: gray;
+}
+.contact__title {
+  font-family: "EB Garamond", sans-serif;
+  font-size: 28px;
+  font-weight: 800;
+  z-index: 1000;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/*=========Footer==============*/
+.footer__inner {
+  padding: 20px 40px;
+  width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #212531;
+}
+.footer__logo {
+  font-family: "EB Garamond", serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+}
+.footer__copy {
+  font-size: 16px;
+  color: #909298;
+}
