@@ -184,9 +184,10 @@ body {
   text-align-last: left;
 }
 .portfolio__image {
-  padding-top: 150%;
+  padding-top: 90%;
   background-color: gray;
   background-size: cover;
+  background-position: top;
 }
 
 /*=========Contact==============*/
@@ -231,6 +232,23 @@ body {
 .footer__copy {
   font-size: 16px;
   color: #909298;
+}
+
+/*=========Caorusel==============*/
+.caourusel {
+  margin-left: 35px;
+  display: flex;
+  display: -ms-flexbox;
+  flex-direction: row;
+}
+.caourusel__item {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 13px;
+  margin-right: 12px;
+}
+.caourusel__item:last-child {
+  margin: 0;
 }
 
 /*=========Media==============*/
