@@ -167,7 +167,12 @@ body {
   margin: 20px 0;
   padding: 30px 24px;
   width: 400px;
-  box-shadow: 2 px 1px 1px 1px rgba(0, 0, 0, 0.25);
+
+  transition: box-shadow .2s linear,
+  display .2s linear;
+}
+.portfolio__item:hover {
+  box-shadow: 3px 3px 3px 5px rgba(0,0,0, 0.2);
 }
 .portfolio__title {
   font-family: "Kumbh Sans", sans-serif;
@@ -188,6 +193,51 @@ body {
   background-color: gray;
   background-size: cover;
   background-position: top;
+}
+
+/*=========Skills==============*/
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.skill {
+  margin: 0 0 50px 55px;
+  width: 63%;
+}
+.skill__image {
+  padding: 30% 0 30%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.skill__title {
+  margin-bottom: 9px;
+  font-size: 21px;
+  color: #212121;
+}
+.skill__value {
+  display: flex;
+}
+.skill__percent {
+  color: #3c3c3c;
+}
+.skill__percent:after {
+  content: "%";
+}
+.progress_cell {
+  margin-right: 3px;
+  height: 9px;
+  display: block;
+  flex: 1;
+  background-color: #9c9c9c;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+.progress_cell:last-child {
+  margin: 0;
+}
+.progress_cell__filled {
+  background-color: #5760a9;
 }
 
 /*=========Contact==============*/
@@ -246,6 +296,8 @@ body {
   border: 1px solid black;
   border-radius: 13px;
   margin-right: 12px;
+
+  cursor: pointer;
 }
 .caourusel__item:last-child {
   margin: 0;

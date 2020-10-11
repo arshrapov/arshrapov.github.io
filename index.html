@@ -15,7 +15,7 @@
 <body>
 <main class="content">
 
-      <header class="header">
+  <header class="header">
         <div class="container">
           <div class="header__inner">
 
@@ -78,13 +78,13 @@
 
       <div class="section__body">
         <div class="section__caorusel caourusel">
-          <a href="#" class="caourusel__item">Все проекты</a>
-          <a href="#" class="caourusel__item">Сайты</a>
-          <a href="#" class="caourusel__item">Telegram боты</a>
+          <a class="caourusel__item caourusel__item__all">Все проекты</a>
+          <a class="caourusel__item caourusel__item__web">Сайты</a>
+          <a class="caourusel__item caourusel__item__bot">Telegram боты</a>
         </div>
         <div class="portfolio__inner">
 
-          <div class="portfolio__item portfolio__item__web">
+          <a href="#" class="portfolio__item portfolio__item__web">
             <h3 class="portfolio__title">
               YEBO / 24.08.2020
             </h3>
@@ -94,9 +94,9 @@
             <div class="portfolio__image ibg">
               <img src="images/portfolio/yebo.png" alt="">
             </div>
-          </div>  <!-- ./portfolio__item -->
+          </a>  <!-- ./portfolio__item -->
 
-          <div class="portfolio__item portfolio__item__web">
+          <a href="#" class="portfolio__item portfolio__item__web">
             <h3 class="portfolio__title">
               MOGO / 14.09.2020
             </h3>
@@ -106,9 +106,9 @@
             <div class="portfolio__image ibg">
               <img src="images/portfolio/mogo.png" alt="">
             </div>
-          </div>  <!-- ./portfolio__item -->
+          </a>  <!-- ./portfolio__item -->
 
-          <div class="portfolio__item portfolio__item__bot">
+          <a href="#" class="portfolio__item portfolio__item__bot">
             <h3 class="portfolio__title">
               MenuBurgerBot / 02.09.2020
             </h3>
@@ -116,15 +116,88 @@
               Бот, осуществляющий взаимосвязь клиента и поставщика(в данном случае пиццерия)
             </div>
             <div class="portfolio__image ibg">
-              <img src="images/portfolio/yebo.png" alt="">
+              <img src="images/portfolio/bot.png" alt="">
             </div>
-          </div>  <!-- ./portfolio__item -->
+          </a>  <!-- ./portfolio__item -->
 
         </div>
       </div>  <!-- ./section__body -->
     </div>  <!-- ./container -->
   </section>  <!-- ./section -->
 
+  <section class="section">
+    <div class="container">
+
+      <div class="section__header">
+        <h1 class="section__title section__title--text">Мои профессиональные навыки</h1>
+      </div>  <!-- ./section__header -->
+
+      <div class="section__body">
+
+        <div class="skills">
+
+          <div class="skills__item skill">
+            <!-- <div class="skill__image ibg">
+              <img src="images/skills/html.png" alt="">
+            </div> -->
+            <div class="skill__title">HTML / <span class="skill__percent">100</span></div>
+            <div class="skill__value">
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+            </div>
+          </div>  <!-- ./skills__item -->
+
+          <div class="skills__item skill">
+            <!-- <div class="skill__image ibg">
+              <img src="images/skills/html.png" alt="">
+            </div> -->
+            <div class="skill__title">CSS / <span class="skill__percent">100</span></div>
+            <div class="skill__value">
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell progress_cell__filled"></span>
+            </div>
+          </div>  <!-- ./skills__item -->
+
+          <div class="skills__item skill">
+            <!-- <div class="skill__image ibg">
+              <img src="images/skills/html.png" alt="">
+            </div> -->
+            <div class="skill__title">JavaScript / <span class="skill__percent">30</span></div>
+            <div class="skill__value">
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+            </div>
+          </div>  <!-- ./skills__item -->
+
+          <div class="skills__item skill">
+            <!-- <div class="skill__image ibg">
+              <img src="images/skills/html.png" alt="">
+            </div> -->
+            <div class="skill__title">Bootstrap / <span class="skill__percent">25</span></div>
+            <div class="skill__value">
+              <span class="progress_cell progress_cell__filled"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+              <span class="progress_cell"></span>
+            </div>
+          </div>  <!-- ./skills__item -->
+
+        </div>
+
+      </div>  <!-- ./section__body -->
+
+    </div>  <!-- ./container -->
+  </section>  <!-- ./section -->
 
   <section class="section contact">
     <div class="container">
@@ -139,7 +212,7 @@
 
           <a href="#" class="contact__item">
             <div class="contact__content">
-              <h2 class="contact__title">FACEBOOk</h2>
+              <h2 class="contact__title">FACEBOOK</h2>
               <div class="contact__logo"></div>
             </div>
           </a>
@@ -157,7 +230,7 @@
   </section>  <!-- ./section -->
 
 
-      <footer class="footer">
+  <footer class="footer">
         <div class="container">
           <div class="footer__inner">
             <div class="footer__logo">AR.</div>
@@ -165,7 +238,7 @@
           </div>
         </div>
       </footer>
-<!-- TODO: need add skills section -->
+
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
