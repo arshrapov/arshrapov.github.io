@@ -115,10 +115,11 @@ body {
 .about__inner {
   display: flex;
   display: -ms-flexbox;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .about__column {
-  flex: 0 0 43%;
+  margin-left: 50px;
+  flex: 0 0 53%;
 }
 .about__paragraph {
   margin-bottom: 28px;
@@ -247,19 +248,16 @@ body {
   justify-content: space-around;
 }
 .contact__item {
-  display: block;
-  padding: 70px;
+  display: flex;
   position: relative;
-  flex: 0 1 29%;
   text-align: center;
-  background-color: gray;
 }
 .contact__title {
   font-family: "EB Garamond", sans-serif;
   font-size: 28px;
   font-weight: 800;
   z-index: 1000;
-  color: #fff;
+  color: gray;
   text-transform: uppercase;
 }
 
@@ -315,5 +313,18 @@ body {
   }
   .header__name {
     font-size: 20px;
+  }
+  .about__column {
+    margin: 0;
+    flex: 0 0 100%;
+  }
+}
+@media(max-width: 900px) {
+  .skill {
+    margin: 0 0 50px 0;
+    width: 100%;
+  }
+  .section__title {
+    font-size: 50px;
   }
 }
