@@ -250,6 +250,7 @@ body {
 .contact__item {
   display: flex;
   position: relative;
+  flex-wrap: wrap;
   text-align: center;
 }
 .contact__title {
