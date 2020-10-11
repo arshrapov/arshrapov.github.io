@@ -250,7 +250,6 @@ body {
 .contact__item {
   display: flex;
   position: relative;
-  flex-wrap: wrap;
   text-align: center;
 }
 .contact__title {
@@ -327,5 +326,10 @@ body {
   }
   .section__title {
     font-size: 50px;
+  }
+}
+@media(max-width: 600px) {
+  .contact__inner {
+    flex-direction: column;
   }
 }
