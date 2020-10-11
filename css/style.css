@@ -331,5 +331,6 @@ body {
 @media(max-width: 600px) {
   .contact__inner {
     flex-direction: column;
+    justify-content: center;
   }
 }
