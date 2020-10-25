@@ -1,0 +1,32 @@
+.footer {
+  padding: 100px 0;
+
+  background-color: #f7f7f7;
+  &__inner {
+    @include flexBox;
+
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__address {
+    font-size: 16px;
+    font-style: italic;
+    color: #848789;
+  }
+  &__city {
+    font-weight: 700;
+  }
+  &__item {
+    &--flex {
+      @include flexBox;
+      align-items: center;
+    }
+  }
+}
+
+.maked {
+  margin-right: 7px;
+  font-style: 16px;
+  font-style: italic;
+  color: #848789;
+}
